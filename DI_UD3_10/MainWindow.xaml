@@ -1,0 +1,85 @@
+﻿<Window x:Class="DI_UD3_10.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DI_UD3_10"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <!-- EJERCICIO 1
+    <Grid>
+        <Button FontWeight="Bold">
+            <Button.Content>
+                <WrapPanel>
+                    <TextBlock Foreground="Green" Text="Texto 1"/>
+                    <TextBlock Foreground="Blue" Text="Texto 2"/>
+                    <TextBlock Text="Texto 3"/>
+                </WrapPanel>
+            </Button.Content>
+        </Button>
+    </Grid>
+    -->
+    <!--EJERCICIO 3
+    <StackPanel Name="MainStackPanel" Background="LightGray">
+        <Button Content="Haz clic" Click="Button_Click"/>
+    </StackPanel>-->
+
+    <!-- EJERCICIO 4
+    <Grid>
+        <TextBlock Margin="10">
+            <Run Text="Texto en rojo"/>
+            <LineBreak/>
+            <Run Text="Texto en azul" Foreground="Blue"/>
+            <LineBreak/>
+            <Run Text="Texto en verde" Foreground="Green"/>
+            <LineBreak/>
+            <Run Text="Texto en negrita" FontWeight="Bold"/>
+        </TextBlock>
+    </Grid>-->
+
+    <!--EJERCICIO 5
+    <Grid>
+        <TextBlock>
+            <Hyperlink NavigateUri="http://www.example.com" RequestNavigate="Hyperlink_RequestNavigate">Visita nuestra página web</Hyperlink>
+        </TextBlock>
+    </Grid>-->
+
+    <!-- EJERCICIO 6
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="Ventana con icono"/>
+    </Grid>-->
+
+    <!--EJERCICIO 7
+    <Grid>
+        <Button Content="Generar Excepción" Click="Button_Click"/>
+    </Grid>-->
+
+    <!--EJERCICIO 8
+    <Grid>
+        <TextBlock>
+            <Span>
+                <Run Text="Este es un ejemplo de"/>
+                <Run Text=" cómo " FontWeight="Bold"/>
+                <Run Text="Span permite incluir"/>
+                <Hyperlink NavigateUri="http://www.example.com">un enlace</Hyperlink>
+                <Run Text=". Run solo aplica estilos a su propio texto."/>
+            </Span>
+        </TextBlock>
+    </Grid>-->
+
+    <!--EJERCICIO 9
+    <Grid>
+        <Label>
+            <Label.Content>
+                <StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="Resources/icon.png" Width="20" Height="20" Margin="5"/>
+                        <TextBlock Text="Información de contacto" VerticalAlignment="Center"/>
+                    </StackPanel>
+                    <Button Content="Mostrar mensaje" Click="Button_Click"/>
+                </StackPanel>
+            </Label.Content>
+        </Label>
+    </Grid>-->
+
+</Window>
