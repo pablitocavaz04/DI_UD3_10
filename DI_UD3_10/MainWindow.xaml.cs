@@ -95,5 +95,13 @@ namespace DI_UD3_10
         {
             MessageBox.Show("Este es un mensaje personalizado.");
         }*/
+        /*
+        private void txtBox2DAM_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+            txtStatus.Text = "Selection starrts at character #"+txtBox2DAM.SelectionStart+Environment.NewLine;
+            txtStatus.Text += "Selection is " + txtBox2DAM.SelectionLength + "character(s) long" + Environment.NewLine;
+            txtStatus.Text += "Selected text: " + txtBox2DAM.SelectedText + " ";
+        }*/
     }
 }
+ 

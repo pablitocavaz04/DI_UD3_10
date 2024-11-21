@@ -81,5 +81,28 @@
             </Label.Content>
         </Label>
     </Grid>-->
+    <!--
+    <Grid>
+        <StackPanel Margin="10" Height="30" Width="100">
+            <TextBox Text="Hola España"/>
+            <TextBox AcceptsReturn="True" TextWrapping="Wrap" SpellCheck.IsEnabled="True" Language="es-ES"/>
+        </StackPanel>
+         <DockPanel Margin="10">
+        <TextBox Name="txtBox2DAM" SelectionChanged="txtBox2DAM_SelectionChanged" DockPanel.Dock="Top"/>
+        <TextBox Name="txtStatus" AcceptsReturn="True" TextWrapping="Wrap" IsReadOnly="True"/>
+    </DockPanel>
+    </Grid>-->
+    <Grid>
+        <Button Background="Beige" Foreground="Blue" FontWeight="Bold">Formatted</Button>
+        <Button>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock>Formatted</TextBlock>
+            <TextBlock Foreground="Blue" FontWeight="Bold" Margin="2,0">Button</TextBlock>
+            <TextBlock Foreground="Gray" FontStyle="Italic">[Various]</TextBlock>
+        </StackPanel>
+        </Button>
+    </Grid>
+
+    
 
 </Window>
